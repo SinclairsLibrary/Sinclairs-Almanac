@@ -114,6 +114,14 @@
 			"flags": {}
 		}
 	],
+		"id": "sinclairs-library-playtest",
+		"authors": [{
+				"name": "Sinclair's Entertainment"
+			}
+		],
+		"compatibility": {
+			"minimum": "10"
+		},
 	"flags": {
 		"sinclairs-library-playtest": {
 			"pf2e-homebrew": {
@@ -144,14 +152,7 @@
 					"vitamancy": "Vitamancy"
 				}
 			}
-		},
-		"id": "sinclairs-library-playtest",
-		"authors": [{
-				"name": "Sinclair's Entertainment"
-			}
-		],
-		"compatibility": {
-			"minimum": "10"
 		}
+	
 	}
 }
