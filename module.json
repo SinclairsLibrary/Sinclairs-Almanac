@@ -1,6 +1,6 @@
 {
 	"title": "Sinclair's Library Playtest",
-	"version": "1.51",
+	"version": "1.52",
 	"url": "https://github.com/aclethos/Sinclair-Playtest-Package",
 	"download": "https://github.com/aclethos/Sinclair-Playtest-Package/archive/refs/heads/master.zip",
 	"manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclair-Playtest-Package/master/module.json",
@@ -114,45 +114,46 @@
 			"flags": {}
 		}
 	],
-	"id": "sinclairs-library-playtest",
-	"authors": [{
-			"name": "Sinclair's Entertainment",
-			"flags": {
-				"sinclairs-library-playtest": {
-					"pf2e-homebrew": {
-						"creatureTraits": {
-							"bovian": "Bovian",
-							"gnosite": "Gnosite"
-						},
-						"armorTraits": {
-							"gnosite": "Gnosite"
-						},
-						"featTraits": {
-							"bovian": "Bovian",
-							"gnosite": "Gnosite",
-							"shaman": "Shaman",
-							"vitamancy": "Vitamancy"
-						},
-						"weaponTraits": {
-							"bovian": {
-								"label": "Bovian",
-								"description": "PF2E.TraitDescriptionBovian"
-							},
-							"return": {
-								"label": "Return",
-								"description": "A weapon with this trait..."
-							}
-						},
-						"spellTraits": {
-							"vitamancy": "Vitamancy"
-						}
+	"flags": {
+		"sinclairs-library-playtest": {
+			"pf2e-homebrew": {
+				"creatureTraits": {
+					"bovian": "Bovian",
+					"gnosite": "Gnosite"
+				},
+				"armorTraits": {
+					"gnosite": "Gnosite"
+				},
+				"featTraits": {
+					"bovian": "Bovian",
+					"gnosite": "Gnosite",
+					"shaman": "Shaman",
+					"vitamancy": "Vitamancy"
+				},
+				"weaponTraits": {
+					"bovian": {
+						"label": "Bovian",
+						"description": "PF2E.TraitDescriptionBovian"
+					},
+					"return": {
+						"label": "Return",
+						"description": "A weapon with this trait..."
 					}
+				},
+				"spellTraits": {
+					"vitamancy": "Vitamancy"
 				}
 			}
-		}
+		},
 
-	],
-	"compatibility": {
-		"minimum": "10"
+		"id": "sinclairs-library-playtest",
+		"authors": [{
+				"name": "Sinclair's Entertainment"
+			}
+
+		],
+		"compatibility": {
+			"minimum": "10"
+		}
 	}
 }
