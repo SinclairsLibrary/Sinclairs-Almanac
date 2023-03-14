@@ -145,12 +145,10 @@
 				}
 			}
 		},
-
 		"id": "sinclairs-library-playtest",
 		"authors": [{
 				"name": "Sinclair's Entertainment"
 			}
-
 		],
 		"compatibility": {
 			"minimum": "10"
