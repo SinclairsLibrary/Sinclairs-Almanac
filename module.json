@@ -3,7 +3,7 @@
 	"version": "1.51",
 	"url": "https://github.com/aclethos/Sinclair-Playtest-Package",
 	"download": "https://github.com/aclethos/Sinclair-Playtest-Package/archive/refs/heads/master.zip",
-	"manifest": "https://raw.githubusercontent.com/aclethos/Sinclair-Playtest-Package/master/module.json",
+	"manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclair-Playtest-Package/master/module.json",
 	"description": "Approved Playtest Material for Sinclair's Library PF2e",
 	"packs": [{
 			"name": "sinclairs-library-ancestries",
