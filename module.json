@@ -120,7 +120,8 @@
 			}
 		],
 		"compatibility": {
-			"minimum": "10"
+			"minimum": "10",
+			"verified" "10.291"
 		},
 	"flags": {
 		"sinclairs-library-playtest": {
