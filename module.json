@@ -1,6 +1,6 @@
 {
   "title": "Sinclair's Library Playtest",
-  "version": "1.6",
+  "version": "1.61",
   "url": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package",
   "download": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package/archive/refs/heads/master.zip",
   "manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclair-Playtest-Package/master/module.json",
@@ -114,7 +114,7 @@
       "private": false,
       "flags": {}
     },
-	{
+    {
       "name": "sinclairs-library-macros",
       "label": "Sinclair's Library - Macros",
       "type": "Macro",
@@ -147,11 +147,11 @@
         },
         "featTraits": {
           "bovian": "Bovian",
-		  "flow": "Flow",
+          "flow": "Flow",
           "gnosite": "Gnosite",
           "shaman": "Shaman",
-		  "surge": "Surge",
-		  "thanator": "Thanator",
+          "surge": "Surge",
+          "thanator": "Thanator",
           "vitamancy": "Vitamancy"
         },
         "weaponTraits": {
@@ -165,9 +165,9 @@
           }
         },
         "spellTraits": {
-		  "shaman": "Shaman",
-		  "surge": "Surge",
-		  "thanator": "Thanator",
+          "shaman": "Shaman",
+          "surge": "Surge",
+          "thanator": "Thanator",
           "vitamancy": "Vitamancy"
         }
       }
