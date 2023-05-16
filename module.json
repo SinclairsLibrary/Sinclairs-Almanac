@@ -1,6 +1,6 @@
 {
   "title": "Sinclair's Library Playtest",
-  "version": "1.65",
+  "version": "1.7",
   "url": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package",
   "download": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package/archive/refs/heads/master.zip",
   "manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclair-Playtest-Package/master/module.json",
