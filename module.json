@@ -1,11 +1,20 @@
 {
   "title": "Sinclair's Library Playtest",
-  "version": "1.7",
+  "version": "1.8",
   "url": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package",
   "download": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package/archive/refs/heads/master.zip",
   "manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclair-Playtest-Package/master/module.json",
   "description": "Approved Playtest Material for Sinclair's Library PF2e",
   "packs": [
+    {
+      "name": "sinclairs-library-actions",
+      "label": "Sinclair's Library - Actions",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-actions.db",
+      "private": false,
+      "flags": {}
+    },
     {
       "name": "sinclairs-library-ancestries",
       "label": "Sinclair's Library - Ancestries",
@@ -15,34 +24,7 @@
       "private": false,
       "flags": {}
     },
-    {
-      "name": "sinclairs-library-feats",
-      "label": "Sinclair's Library - Feats",
-      "type": "Item",
-      "system": "pf2e",
-      "path": "packs/sinclairs-library-feats.db",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "sinclairs-library-effects",
-      "label": "Sinclair's Library - Effects",
-      "type": "Item",
-      "system": "pf2e",
-      "path": "packs/sinclairs-library-effects.db",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "sinclairs-library-classes",
-      "label": "Sinclair's Library - Classes",
-      "type": "Item",
-      "system": "pf2e",
-      "path": "packs/sinclairs-library-classes.db",
-      "private": false,
-      "flags": {}
-    },
-    {
+      {
       "name": "sinclairs-library-archetypes",
       "label": "Sinclair's Library - Archetypes",
       "type": "Item",
@@ -51,12 +33,48 @@
       "private": false,
       "flags": {}
     },
-    {
-      "name": "sinclairs-library-actions",
-      "label": "Sinclair's Library - Actions",
+        {
+      "name": "sinclairs-library-backgrounds",
+      "label": "Sinclair's Library - Backgrounds",
       "type": "Item",
       "system": "pf2e",
-      "path": "packs/sinclairs-library-actions.db",
+      "path": "packs/sinclairs-library-backgrounds.db",
+      "private": false,
+      "flags": {}
+    },
+        {
+      "name": "sinclairs-library-classes",
+      "label": "Sinclair's Library - Classes",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-classes.db",
+      "private": false,
+      "flags": {}
+    },
+        {
+      "name": "sinclairs-library-effects",
+      "label": "Sinclair's Library - Effects",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-effects.db",
+      "private": false,
+      "flags": {}
+    },
+        {
+      "name": "sinclairs-library-equipment",
+      "label": "Sinclair's Library - Equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-equipment.db",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "sinclairs-library-feats",
+      "label": "Sinclair's Library - Feats",
+      "type": "Item",
+      "system": "pf2e",
+      "path": "packs/sinclairs-library-feats.db",
       "private": false,
       "flags": {}
     },
@@ -78,21 +96,21 @@
       "private": false,
       "flags": {}
     },
-    {
-      "name": "sinclairs-library-equipment",
-      "label": "Sinclair's Library - Equipment",
-      "type": "Item",
+        {
+      "name": "sinclairs-library-journals",
+      "label": "Sinclair's Library - Journals",
+      "type": "JournalEntry",
       "system": "pf2e",
-      "path": "packs/sinclairs-library-equipment.db",
+      "path": "packs/sinclairs-library-journals.db",
       "private": false,
       "flags": {}
     },
-    {
-      "name": "sinclairs-library-backgrounds",
-      "label": "Sinclair's Library - Backgrounds",
-      "type": "Item",
+        {
+      "name": "sinclairs-library-macros",
+      "label": "Sinclair's Library - Macros",
+      "type": "Macro",
       "system": "pf2e",
-      "path": "packs/sinclairs-library-backgrounds.db",
+      "path": "packs/sinclairs-library-macros.db",
       "private": false,
       "flags": {}
     },
@@ -104,24 +122,6 @@
       "path": "packs/sinclairs-library-spells.db",
       "private": false,
       "flags": {}
-    },
-    {
-      "name": "sinclairs-library-journals",
-      "label": "Sinclair's Library - Journals",
-      "type": "JournalEntry",
-      "system": "pf2e",
-      "path": "packs/sinclairs-library-journals.db",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "name": "sinclairs-library-macros",
-      "label": "Sinclair's Library - Macros",
-      "type": "Macro",
-      "system": "pf2e",
-      "path": "packs/sinclairs-library-macros.db",
-      "private": false,
-      "flags": {}
     }
   ],
   "id": "sinclairs-library-playtest",
@@ -131,9 +131,29 @@
       "flags": {}
     }
   ],
+  "packFolders": [
+  {
+	  "name": "Sinclairs Library",
+	  "sorting": "m",
+	  "packs": [
+	  "sinclairs-library-actions",
+	  "sinclairs-library-ancestries",
+	  "sinclairs-library-archetypes",
+	  "sinclairs-library-backgrounds",
+	  "sinclairs-library-classes",
+	  "sinclairs-library-effects",
+	  "sinclairs-library-equipment",
+	  "sinclairs-library-feats",
+	  "sinclairs-library-features",
+	  "sinclairs-library-heritages",
+	  "sinclairs-library-spells"
+	  
+	  ]
+  }
+  ],
   "compatibility": {
-    "minimum": "10",
-    "verified": "10.291"
+    "minimum": "11",
+    "verified": "11.315"
   },
   "flags": {
     "sinclairs-library-playtest": {
