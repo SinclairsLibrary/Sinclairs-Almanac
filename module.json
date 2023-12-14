@@ -1,10 +1,10 @@
 {
-  "title": "Sinclair's Library Playtest",
-  "version": "1.8",
-  "url": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package",
-  "download": "https://github.com/SinclairsLibrary/Sinclair-Playtest-Package/archive/refs/heads/master.zip",
-  "manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclair-Playtest-Package/master/module.json",
-  "description": "Approved Playtest Material for Sinclair's Library PF2e",
+  "title": "Sinclair's Almanac",
+  "version": "1.0",
+  "url": "https://github.com/SinclairsLibrary/Sinclair-Almanac",
+  "download": "https://github.com/SinclairsLibrary/Sinclair-Almanac/archive/refs/heads/master.zip",
+  "manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclair-Almanac/master/module.json",
+  "description": "Approved content for Sinclair's Library PF2e",
   "packs": [
     {
       "name": "sinclairs-library-actions",
