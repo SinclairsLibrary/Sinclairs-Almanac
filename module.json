@@ -2,7 +2,7 @@
   "title": "Sinclair's Almanac",
   "version": "1.0",
   "url": "https://github.com/SinclairsLibrary/Sinclair-Almanac",
-  "download": "https://github.com/SinclairsLibrary/Sinclair-Almanac/archive/refs/heads/master.zip",
+  "download": "https://github.com/SinclairsLibrary/Sinclairs-Almanac/archive/refs/heads/master.zip",
   "manifest": "https://raw.githubusercontent.com/SinclairsLibrary/Sinclairs-Almanac/master/module.json",
   "description": "Approved content for Sinclair's Library PF2e",
   "packs": [
